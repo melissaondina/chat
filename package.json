@@ -1,21 +1,23 @@
 {
   "name": "chat4",
   "version": "1.0.0",
-  "description": "Chat en tiempo real"
-  "main": "main.js",
-  "dependencies": {
-    "express": "*",
-    "socket.io": "*"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node main.js"
+    "test": "echo \"Error: no test specified\" && exit 1
   },
-  
-  "engine": {
-    "node": "4.5.x"
-  },
-  "author": "Melissa Maldonado",
-  "license": "ISC"
-
+  "keywords": [
+  "example",
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+  "engines": {
+    "node": "4.5.0"
+  }
 }
+
