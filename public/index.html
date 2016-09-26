@@ -1,0 +1,55 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">
+   <link rel="stylesheet" href="css/bootstrap.css">
+  <title>Chat con Node</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+</head>  
+<body>  
+  <div class="row">
+ <div class="jumbotron">
+
+            <h1 class="blue" style="color:#2196F3;">Chat en tiempo real </h1>
+            <h3 class="blue">Comparte con tus amigos!</h3>
+          
+        </div>
+    </div>
+<div align= " left">
+<div class="container" >
+        
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">  Sala de Chat Honduras<small>    Unete a la comunidad! </small> </h3>
+            </div>
+            <div class="panel-body">
+              <form role="form">
+               <div ALIGN=left class="left" >
+                 <div id="messages"></div>
+               </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <br/>
+
+ <form onsubmit="return addMessage(this)" class="navbar-form navbar-left" >
+  <div class="form-group">
+   <div class="left" >
+     <input type="text" id="username" class="form-control" placeholder="Nombre">
+     <input type="text" id="texto" class="form-control" placeholder="Di algo">
+     <button type="submit" class="btn btn-success btn-lg btn3d"> Enviar </button>
+   </div>
+  </div>
+ </form>
+
+ 
+</body>  
+</html>  

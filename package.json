@@ -1,0 +1,20 @@
+{
+  "name": "chat2",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "engine": {
+    "node": "4.5.0"
+  },
+  "author": "Melissa Maldonado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {},
+  "description": "Chat en tiempo real"
+}
